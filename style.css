@@ -75,6 +75,7 @@ body {
     color: black;
 }
 
+
 /* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -85,3 +86,23 @@ body {
     from { transform: translateY(-50px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
 }
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+footer a {
+    color: #00ffcc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
